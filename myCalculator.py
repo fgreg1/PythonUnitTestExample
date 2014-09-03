@@ -5,3 +5,7 @@ class myCalculator(object):
         
     def sum(self, x, y):
         return x + y
+    
+    def minus(self, x, y):
+        return x - y
+    

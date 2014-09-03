@@ -13,6 +13,10 @@ class myUnitTest(unittest.TestCase):
         sumResult = self.calculator.sum(2,3)
         self.assertEqual(sumResult, 5)
 
+    def testMinus(self):
+        minusResult = self.calculator.minus(3,2)
+        self.assertEqual(minusResult, 1)
+        
     if __name__ == "__main__":
         unittest.main()
     
