@@ -17,6 +17,10 @@ class myUnitTest(unittest.TestCase):
         minusResult = self.calculator.minus(3,2)
         self.assertEqual(minusResult, 1)
         
+    def testMultiply(self):
+        multiplyResult = self.calculator.multiply(5,4)
+        self.assertEquals(multiplyResult, 20)
+        
     if __name__ == "__main__":
         unittest.main()
     
