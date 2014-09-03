@@ -20,7 +20,8 @@ class myUnitTest(unittest.TestCase):
     def testMultiply(self):
         multiplyResult = self.calculator.multiply(5,4)
         self.assertEquals(multiplyResult, 20)
-        
-    if __name__ == "__main__":
-        unittest.main()
+
+
+if __name__ == '__main__':  
+    unittest.main()  
     
